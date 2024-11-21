@@ -1,8 +1,8 @@
-package pe.edu.i202331020.cl1_jpa_data_blas_juan.utils;
+package pe.edu.i202331020.cl1.jpa.data.blas.juan.utils;
 
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
-import pe.edu.i202331020.cl1_jpa_data_blas_juan.enums.ContinentEnum;
+import pe.edu.i202331020.cl1.jpa.data.blas.juan.enums.ContinentEnum;
 
 @Converter(autoApply = true)
 public class ContinentEnumConverter implements AttributeConverter<ContinentEnum, String> {

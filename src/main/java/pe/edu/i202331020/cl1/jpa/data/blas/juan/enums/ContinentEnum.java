@@ -1,7 +1,10 @@
-package pe.edu.i202331020.cl1_jpa_data_blas_juan.enums;
+package pe.edu.i202331020.cl1.jpa.data.blas.juan.enums;
+
+import lombok.Getter;
 
 import java.util.Arrays;
 
+@Getter
 public enum ContinentEnum {
     ASIA("Asia"),
     EUROPE("Europe"),
@@ -15,10 +18,6 @@ public enum ContinentEnum {
 
     ContinentEnum(String name) {
         this.name = name;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public static ContinentEnum fromName(String name) {
